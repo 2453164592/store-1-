@@ -1,0 +1,89 @@
+main {
+  width: 1200px;
+  margin: 2rem auto 2rem;
+  overflow: hidden;
+}
+main .gooods_detailss .goods-img {
+  width: 400px;
+  height: 400px;
+  border: none;
+  cursor: pointer;
+  float: left;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10 gray;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+main .gooods_detailss .goods-img .ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  opacity: 0.3;
+  display: none;
+}
+main .gooods_detailss .goods-img .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main .gooods_detailss .goods-img .zoom {
+  position: absolute;
+  left: 500px;
+  top: 0px;
+  width: 400px;
+  height: 400px;
+  background: center #fff no-repeat;
+  background-size: cover;
+  display: none;
+  overflow: hidden;
+}
+main .gooods_detailss .goods-img img {
+  outline: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 0.5rem;
+}
+main .gooods_detailss .goods-info {
+  box-sizing: border-box;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin-left: 100px;
+  padding-top: 3rem;
+  text-align: center;
+}
+main .gooods_detailss .goods-info .title {
+  padding: 3rem;
+  font-size: 1rem;
+}
+main .gooods_detailss .goods-info p {
+  text-align: center;
+  padding: 2rem;
+  font-size: 15px;
+}
+main .gooods_detailss .goods-info p .price {
+  font-weight: bold;
+  color: red;
+}
+main .gooods_detailss .goods-info .btnPay {
+  display: block;
+  width: 10rem;
+  height: 2rem;
+  margin: 1rem auto;
+  background-color: orange;
+  border-radius: 0.5rem;
+}
+main .gooods_detailss .goods-info .btnPay:active {
+  transform: scale(0.95);
+}
+main .gooods_detailss .goods-info .btnPay:focus {
+  outline: none;
+}

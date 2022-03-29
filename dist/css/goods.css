@@ -1,0 +1,63 @@
+.goods {
+  margin: 2rem auto;
+}
+.goods .item .addr {
+  margin-top: 2rem;
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+.goods .item .title {
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  color: orange;
+}
+.goods .item .goods-list {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.goods .item .goods-list .goods-item {
+  width: 290px;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 0 0 10px grey;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  margin: 5px;
+}
+.goods .item .goods-list .goods-item:last-child {
+  margin-right: 0px;
+}
+.goods .item .goods-list .goods-item a {
+  cursor: pointer;
+  color: orange;
+  font-size: 1rem;
+}
+.goods .item .goods-list .goods-item a .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.goods .item .goods-list .goods-item a .name {
+  padding: 1rem 0 0;
+}
+.goods .item .goods-list .goods-item a .price {
+  padding: 0 0 1rem;
+}
+.goods .item .goods-list .goods-item a .btnBuy {
+  display: block;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.goods .item .goods-list .goods-item a .btnBuy:hover {
+  color: #f00;
+}
+.goods .item .goods-list .goods-item:hover {
+  box-shadow: 0 0 10px orange;
+}

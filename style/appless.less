@@ -1,0 +1,218 @@
+.toBlock(@width:0px,@height:0px){
+    width: @width;
+    height: @height;
+    display: inline-block;
+}
+@base-color: #929292;
+.center(@width){
+    width:@width;
+    margin: 0 auto;
+}
+.fz(@fontSize:15px){
+    font-size:@fontSize ;
+}
+// 顶部注册一行
+header{
+    width: 100%;
+
+    .top_nav{
+         background-color: rgb(236,236,236);
+        .center(100%);
+        line-height: 3rem;
+        height: 3rem;
+        li{
+            float: left;
+            a{
+                color:@base-color ;
+                padding: 0 10px;
+                border-right: 1px solid #b1b1b1;
+                .fz(12px);
+                span{
+                    color:red;
+                    &:hover{
+                        color: black;
+                    }
+                }
+                &:hover{
+                    color: black;
+                }
+            }
+            &:last-child{
+                a{
+                    border-right: 0;
+                }
+               
+            }
+        }
+    }
+    .top_search_container{
+    height: 8rem;
+    .container{
+       .center(800px);
+      
+        .left-icon{
+            padding: 30px;
+           
+        }
+        .search{
+            padding-top: 35px;
+            input{
+                .toBlock(20rem,3rem);
+                border-color:orange;
+                padding: 0 1rem;
+                .fz(16px)
+            }
+            button{
+                .toBlock(4rem, 3.2rem);
+                border-color:orange;
+                .fz(14px);
+                margin-left:-4px ;
+            }
+        }
+    }
+}
+}
+// 页面尾部
+footer{ 
+    .security{
+    height: 70px;
+    line-height: 70px;
+    background: #af2525;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    .wrap{
+       
+        li{
+            font-size: 15px;
+            text-align: center;
+            width: 25%;
+            float: left;
+            height: 72px;
+            color: #fff;
+            i{  margin-right:20px;
+                vertical-align: middle;
+                background-image: url(../res/image/service.png);
+                .toBlock(72px ,72px)
+                
+                }
+            }
+        }
+    }
+   .foot{
+       overflow: hidden;
+        padding: 10px;
+        box-sizing: border-box;
+       em{
+          
+           float: left;
+           img{
+               width:150px;
+               height: 100px ;
+               display:inline-block;
+           }
+       }
+       p{
+        height: 50px;
+        line-height: 50px;
+           a{
+               margin-right: 5px;     
+               color: #000;
+           }
+       }
+   } 
+ .footer{
+    
+     a{
+
+         padding: 10px;
+        display: block;
+        text-align: center;
+      
+         img{
+             width: 50px;
+             height: 50px;
+             vertical-align: middle;
+         }
+         p{
+             display: inline-block;
+         }
+     }
+ }
+}
+.bar(@width,@height,@color,@isfloat){
+    width: @width;
+    height: @height;
+    background-color: @color;
+    float: @isfloat;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+    position: fixed;
+  
+    @{isfloat}:0;//如果要把@isfloat放在前面要在isfloat外加{}
+    margin-top: -(@height/2);
+    z-index: 999;
+}
+.locationBar{
+    display: none;
+    .bar(4rem,13rem,rgba(255,0,0,0.5),left);  
+    top: 50%;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    li{
+        padding:0.5rem;
+        border-bottom: 1px solid rgba(44, 44, 44, 0.3);
+        cursor: pointer;
+        a{
+            color:#fff;
+        }
+    }
+    li:hover{
+        a{
+          color: yellow;
+        }
+    }
+    li:last-child{
+        border: none;
+    }
+}
+
+.rightbar{
+    display: none;
+    .bar(4rem,10rem,rgba(255,0,0,0.5),right);
+    bottom: 5%;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    li{
+        padding: 0.5rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(44, 44, 44, 0.3);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+        a{
+            img{
+           
+            width: 1.5rem;
+            height: 1.5rem;
+            display: block;
+
+        } display: flex;
+        justify-content: space-around;
+            color:#fff;
+        }
+    }
+    li:hover{
+        a{
+          color: yellow;
+        }
+    }
+    li:last-child{
+        margin-top: 3rem;
+        border: none;
+    }
+}

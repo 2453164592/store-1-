@@ -1,0 +1,63 @@
+@import 'tools';
+.goods{
+     margin: 2rem auto;
+    .item{
+        .addr{
+            margin-top: 2rem;
+            .toBlock(100%,150px);
+       
+        }
+        .title{
+            text-align: center;
+            padding: 20px;
+            font-size: 2rem;
+            color: orange;  
+        }
+        .goods-list{
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .goods-item{
+             
+                width: 290px;
+                text-align: center;
+                padding: 5px;
+                box-shadow: 0 0 10px grey;
+                border-radius:.5rem;
+                box-sizing: border-box;
+                margin:5px;
+                
+                &:last-child{
+                    margin-right: 0px;
+                }
+                a{  cursor: pointer;
+                    color: orange;
+                    font-size: 1rem;
+                    .image{
+                        .toBlock(100%,auto)
+                    }
+                    .name{
+                        padding: 1rem 0 0;
+                      }
+                      .price {
+                        padding: 0 0 1rem;
+                      }
+                      .btnBuy{
+                          .toBlock(10rem,2rem);
+                          text-align: center;
+                          margin: 0 auto;
+                          &:hover{
+                            color: #f00;
+                          }
+                      }
+                }
+                &:hover{
+                    box-shadow: 0 0 10px orange;
+                  }
+            }
+
+        }
+    }
+}

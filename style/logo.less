@@ -1,0 +1,37 @@
+@import "tools.less";
+.dialog{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    width: 30rem;
+    height: 25rem;
+    padding: 1rem;
+    margin-left: -15rem;
+    margin-top: -12.5rem;
+    box-shadow: 0 0 5px gray;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    z-index: 100;
+    .close-btn{
+       .toBlock(2rem,2rem) ;
+       .relative(26rem,0rem);
+       border-color: orange;
+       border-radius: 50%;
+    }
+    input{
+        .toBlock(20rem,3rem);
+        margin:1rem auto;
+        outline: none;
+        border-color: orange;
+        padding-left: 1rem;
+        border-radius: 1rem;
+    }
+  .btn{
+      .toBlock(5rem,2rem);
+      border-color: orange;
+      outline: none;
+      text-align: center;
+      .center(3rem)
+  }
+}

@@ -1,0 +1,40 @@
+@import 'tools';
+.category-nav{
+    z-index: 3;
+    .absolute();
+    a{
+        text-decoration: none;
+        color: red;
+    }
+    li{
+        height: 40px;
+        line-height: 40px;
+        padding: 2rem 2rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid #d6d6d6;
+    }
+    li:hover{
+        background-color: rgba(195, 195, 195, .2);
+    }
+    .category_menu{
+        width: 10rem;
+        height: 425px;
+        .relative();
+        background-color: rgba(255, 255, 255, .7);
+        .category-sub-menu{
+            li{
+                height: 40px;
+                line-height: 40px;
+                padding: 2rem 6rem;
+                box-sizing: border-box;
+                border-bottom: 1px solid #d6d6d6;
+            }
+            overflow: hidden;
+            width: 0;
+            height: 425px;
+            background-color: rgba(238, 238, 238, 0.7);
+            .absolute(10rem,0);
+            transition:all 1s ;
+        }
+    }
+}

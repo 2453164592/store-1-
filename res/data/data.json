@@ -1,0 +1,333 @@
+{
+    "nav": [{
+            "id": "001",
+            "title": "首页",
+            "url": "./index.html",
+            "imageurl": ""
+        },
+        {
+            "id": "002",
+            "title": "土购生鲜",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "id": "003",
+            "title": "新闻资讯",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "id": "004",
+            "title": "特价商品",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "id": "005",
+            "title": "企业直采",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "id": "006",
+            "title": "商家入驻",
+            "url": "",
+            "imageurl": ""
+        }
+    ],
+    "category": [{
+            "title": "水果蔬菜",
+            "des": [
+                { "title": "苹果" },
+                { "title": "脐橙" },
+                { "title": "榴莲" },
+                { "title": "有机蔬菜" },
+                { "title": "圣女果" }
+            ]
+        },
+        {
+            "title": "休闲食品",
+            "des": [
+                { "title": "葡萄干" },
+                { "title": "开心果" },
+                { "title": "曲奇" },
+                { "title": "月饼" }
+            ]
+        },
+        {
+            "title": "生鲜",
+            "des": [{
+                    "title": "鱿鱼"
+                },
+                { "title": "甲鱼" },
+                { "title": "帝王蟹" },
+                { "title": "澳龙" }
+            ]
+        },
+        {
+            "title": "茶叶冲饮",
+
+            "des": [
+                { "title": "普洱茶" },
+                { "title": "红茶" },
+                { "title": "斯里兰卡茶" },
+                { "title": "柚子茶" }
+            ]
+        }
+    ],
+    "goods": [{
+        "type": "0",
+        "id": "FruitsandVegetables",
+        "title": "水果蔬菜",
+        "addr": "./res/image/09.png",
+        "des": [{
+                "id": "0",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+
+            {
+                "id": "1",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "2",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "3",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "4",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "5",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "6",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "7",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            }
+        ]
+    }, {
+        "type": "1",
+        "id": "foods",
+        "title": "休闲食品",
+        "addr": "./res/image/09.png",
+        "des": [{
+                "id": "0",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+
+            {
+                "id": "1",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "2",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "3",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "4",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "5",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "6",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "7",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            }
+        ]
+    }, {
+        "type": "2",
+        "id": "fresh",
+        "title": "生鲜",
+        "addr": "./res/image/09.png",
+        "des": [{
+                "id": "0",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+
+            {
+                "id": "1",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "2",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "3",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "4",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "5",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "6",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "7",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            }
+        ]
+    }, {
+        "type": "3",
+        "id": "tea",
+        "title": "茶叶冲饮",
+        "addr": "./res/image/09.png",
+        "des": [{
+                "id": "0",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+
+            {
+                "id": "1",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "2",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "3",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "4",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "5",
+                "title": "邮政包邮！【土购网】赣南脐橙5斤试吃装 正宗赣南脐橙 酸甜可口",
+                "price": "19.90",
+                "name": "正宗赣南脐橙",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "6",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            },
+            {
+                "id": "7",
+                "title": "九山生姜 2.5kg",
+                "price": "38.90",
+                "name": "九山生姜 2.5kg",
+                "image": "./res/image/10.png"
+            }
+        ]
+    }]
+
+}

@@ -1,0 +1,28 @@
+.flexAround(){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.absolute_right_top(@r:0px,@t:0px){
+    position: absolute;
+    right: @r;
+    top: @t;
+}
+.toBlock(@w,@h){
+    display: block;
+    width: @w;
+    height: @h;
+}
+.relative(@left:0px,@top:0px){
+    position: relative;
+    left: @left;
+    top:@top;
+}
+.absolute(@left:0px,@top:0px){
+    position: absolute;
+    left: @left;
+    top:@top;
+}
+.center(@top:0px){
+    margin: @top auto;
+}
