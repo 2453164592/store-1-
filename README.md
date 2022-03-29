@@ -1,2 +1,2 @@
 # store-1-
-html+css+javascript的内容制作的网页
+html+css(less)+javascript的内容制作的网页
